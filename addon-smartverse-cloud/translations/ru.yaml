@@ -1,0 +1,10 @@
+---
+configuration:
+  username:
+    name: E-mail адрес пользователя SMARTVRESE
+    description: >-
+      Имя пользователи для авторизации в облаке SMARTVERSE
+  password:
+    name: Пароль пользователя SMARTVRESE
+    description: >-
+      Пароль для авторизации в облаке SMARTVERSE

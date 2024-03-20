@@ -1,0 +1,17 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# shellcheck disable=SC2207
+# ==============================================================================
+#
+#
+# ==============================================================================
+#if bashio::var.false "$(bashio::addon.protected)"; then
+#    bashio::log.info 'Smartverse support has been enabled.'
+#fi
+
+export USERNAME=$(bashio::config 'username')
+export PASSWORD=$(bashio::config 'password')
+
+bashio::log.info "Using username: ${USERNAME} to login to SMARTVERSE"
+
+/usr/local/bin/smartverse-run.sh

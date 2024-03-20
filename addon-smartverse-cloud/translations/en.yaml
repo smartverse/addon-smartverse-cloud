@@ -1,0 +1,10 @@
+---
+configuration:
+  username:
+    name: SMARTVERSE CLOUD User name
+    description: >-
+      User name you have used to register and log-in to Smartverse CLOUD
+  password:
+    name: SMARTVERSE CLOUD Password
+    description: >-
+      Password you have used to register and log-in to Smartverse CLOUD

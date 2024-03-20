@@ -1,0 +1,2 @@
+yamllint==1.34.0
+smartverse-tools @ git+https://gitlab.smartverse.ru/pub/smartverse-tools.git@0.7.0
